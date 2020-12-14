@@ -23,7 +23,15 @@
         <name>JarCasting</name>
         <url>https://jarcasting.com/</url>
     </organization>
-
+    <scm>
+        <connection>scm:git:git://github.com/JarCasting/search-maven-plugin</connection>
+        <developerConnection>scm:git:git://github.com/JarCasting/search-maven-plugin</developerConnection>
+        <url>https://github.com/JarCasting/search-maven-plugin</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/JarCasting/search-maven-plugin/issues</url>
+    </issueManagement>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
