@@ -4,7 +4,7 @@
     <groupId>com.jarcasting</groupId>
     <artifactId>search-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>search-maven-plugin</name>
     <description>Plugin for search artifacts in Maven Central</description>
 
@@ -51,6 +51,13 @@
 
 
     <dependencies>
+
+        <!-- https://jarcasting.com/artifacts/com.jarcasting/commons-json-utils/ -->
+        <dependency>
+            <groupId>com.jarcasting</groupId>
+            <artifactId>commons-json-utils</artifactId>
+            <version>1.0.4</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.maven</groupId>
